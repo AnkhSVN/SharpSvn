@@ -11,4 +11,4 @@ jobs:
     - uses: seanmiddleditch/gha-setup-vsdevenv@master
     - name: MSBuild
       working-directory: src
-      run: msbuild SharpGit.sln
+      run: msbuild SharpSvn.sln
